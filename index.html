@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ESTante do Conhecimento</title>
+    <link rel="icon" href="pictures/iconeDoSite.png" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="css/styleIndex.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+     <!-- navbar de navegacao -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="autor.html">Autor</a></li>
+              <li><a href="colecaoLivros.html">Coleção de Livros</a></li>
+              <li><a href="livrosDisponiveis.html">Livros Disponiveis</a></li>
+              <li><a href="contactos.html">Contactos</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://www.facebook.com/profile.php?id=61575933394315">
+                    <img src="pictures/iconeFacebook.png" class="social-icon">Facebook </a></li>
+                  <li><a href="https://x.com/IPCBoficial"><img src="pictures/iconeX.png" class="social-icon">X</a></li>
+                  <li><a href="https://www.linkedin.com/school/politecnico-castelo-branco/posts/?feedView=all"><img src="pictures/iconeLinkedin.png" class="social-icon">LinkedIn</a></li>
+                  <li><a href="https://www.instagram.com/ipcb.pt/"><img src="pictures/iconeInstagram.png" class="social-icon">Instagram</a></li>
+                </ul>
+              </li>
+            </div>
+    </nav>
+        <!-- Banner -->
+<section class="banner">
+  <div class="banner-content">
+    <img src="pictures/iconeDoSite.png" alt="Logotipo" class="logo-banner">
+    <div class="text-content">
+    <h1>Bem-vindo à ESTante do Conhecimento</h1>
+    <p>Explore uma vasta coleção de livros que despertam a mente e enriquecem o saber.</p>
+  </div>
+</section>
+     <!-- carousel  -->
+    <div id="myCarousel" class="carousel slide"> 
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="3" class="active"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="pictures/colecaoLivro.png">
+          <div class="container active">
+            <div class="carousel-caption">
+              <a href="colecaoLivros.html" class="btn-ir-livro">Ver</a> 
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="pictures/escolhaEditores.png">
+          <div class="container active">
+            <div class="carousel-caption">
+              <a href="#EscolhaDosEspecialistas" class="btn-ir-livro">Ver</a>  
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="pictures/livrosDisponiveis.png">
+          <div class="container active">
+            <div class="carousel-caption">
+             <a href="livrosDisponiveis.html" class="btn-ir-livro">Ver</a>  
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="pictures/livroSemana.png">
+          <div class="container active">
+            <div class="carousel-caption">
+              <a href="#livroDaSemana" class="btn-ir-livro">Ver</a>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <!--Lista de motivos para ler -->
+ <div class="container my-5">
+  <div class="row align-items-center">
+    
+    <!-- Texto à esquerda -->
+    <div class="col-md-6 motivos-texto">
+      <h1>Porquê ler?</h1>
+      <ul>
+        <li>Descobre novos mundos e ideias</li>
+        <li>Expande a tua mente</li>
+        <li>Aprimora a tua inteligência emocional</li>
+        <li>Transforma a tua carreira</li>
+        <li>Desperta a tua criatividade</li>
+        <li>Encontra motivação todos os dias</li>
+        <li>Fortalece a tua memória e concentração</li>
+        <li>Conecta-te com grandes pensadores</li>
+      </ul>
+    </div>
+
+    <!-- Imagem à direita -->
+    <div class="col-md-6 text-center">
+      <img src="pictures/leitura.png" alt="leitura" class="img-fluid">
+    </div>
+
+  </div>
+</div>
+    <hr>
+      <!--Livro da Semana -->
+  <h2>Livro da Semana </h2>
+       <div id ="livroDaSemana">
+              
+         <div class="container my-5">
+  <div class="row align-items-center">
+    
+    <!-- Texto à esquerda -->
+    <div class="col-md-9 livro-semana">
+      <h2>Memorial do Convento</h2>
+      <p class="descricao">Descrição:</p>
+      <p class="texto-descricao">«Um romance histórico inovador. Personagem principal, o Convento de Mafra. O escritor aparta-se da descrição engessada, 
+        privilegiando a caracterização de uma época. Segue o estilo: "Era uma vez um rei que fez promessas de levantar um convento em Mafra... 
+        Era uma vez a gente que construiu esse convento... Era uma vez um soldado maneta e uma mulher que tinha poderes... 
+        Era uma vez um padre que queria voar e morreu doido". Tudo, "era uma vez...". Logo a começar por "D. João, quinto do nome na tabela real,
+         irá esta noite ao quarto de sua mulher, D. Maria Ana Josefa, que chegou há mais de dois anos da Áustria para dar infantes à coroa portuguesa a até hoje 
+         ainda não emprenhou (...). Depois, a sobressair, essa espantosa personagem, Blimunda, ao encontro de Baltasar. Milhares de léguas andou Blimundo, e o romance correu mundo, 
+         na escrita e na ópera (numa adaptação do compositor italiano Azio Corghi). Para a nossa memória ficam essas duas personagens inesquecíveis, um Sete Sóis e o outro Sete Luas,
+          a passearem o seu amor pelo Portugal violento e inquisitorial dos tristes tempos do rei D. João V.»</p>
+          <p class="resumo">Resumo Capitulo I:</p>
+          <audio controls>
+  <source src="media/capitulo1.mp3" type="audio/mpeg">
+  Não suporta audio
+</audio>
+    </div>
+
+
+    <!-- Imagem à direita -->
+    <div class="col-md-3 text-center">
+      <img src="pictures/memorialDoConvento.png" alt="leitura" class="img-fluid">
+    </div>
+       </div>
+        </div>
+        </div>
+   <hr>
+        <!--Escolha dos especialistas-->
+        <h2>Escolha dos especialistas</h2>        
+
+         <div id ="EscolhaDosEspecialistas">
+         <div class="container my-5">
+  <div class="row align-items-center">
+    
+    <!-- Texto à esquerda -->
+    <div class="col-md-9 livro-semana">
+      <h2>Diário de Anne Frank</h2>
+      <p class="descricao">Descrição:</p>
+      <p class="texto-descricao">Escrito entre 12 de junho de 1942 e 1 de agosto de 1944, 
+        O Diário de Anne Frank foi publicado pela primeira vez em 1947, por iniciativa de seu pai, 
+        revelando ao mundo o dia a dia de dois longos anos de uma adolescente forçada a esconder-se, 
+        juntamente com a sua família e um grupo de outros judeus, durante a ocupação nazi da cidade de Amesterdão.
+        Todos os que se encontravam naquele pequeno anexo secreto acabaram por ser presos em agosto de 1944, e em
+         março de 1945 Anne Frank morreu no campo de concentração de Bergen-Belsen, a escassos dois meses do final da guerra 
+         na Europa. O seu diário tornar-se-ia um dos livros de não ficção mais lidos em todo o mundo, testemunho incomparável 
+         do terror da guerra e do fulgor do espírito humano.</p>
+         <p class="descricao">Avaliação dos Especialistas:</p>
+         <br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                  class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span
+                  class="glyphicon glyphicon-star"></span>
+    </div>
+    <div class="col-md-3 text-center">
+      <img src="pictures/diarioAnneFrank.png" alt="leitura" class="img-fluid">
+      
+    </div>
+       </div>
+        </div>
+        </div>
+  <div class="video-container">
+  <p class="anneFrank">Quem é a Anne Frank?</p>
+  <video width="800" height="450" controls>
+    <source src="media/aneFrank.mp4" type="video/mp4">
+    O navegador não suporta o elemento de vídeo.
+  </video>
+</div>
+<!--Rodape do site-->
+ <footer class="footer-verde">
+  <div class="footer-container">
+    <div class="footer-coluna">
+      <h4>Estante do Conhecimento</h4>
+    </div>
+    <div class="footer-coluna">
+      <h4>Explorar</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="autor.html">Autor</a></li>
+        <li><a href="colecaoLivros.html">Coleção de livros</a></li>
+        <li><a href="livrosDisponiveis.html">Livros Disponiveis</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
+    </div>
+    <div class="footer-coluna">
+      <h4>Redes Sociais</h4>
+      <ul>
+       <li><a href="https://www.facebook.com/profile.php?id=61575933394315">
+                    <img src="pictures/iconeFacebook.png" class="social-icon">Facebook </a></li>
+        <li><a href="https://x.com/IPCBoficial"><img src="pictures/iconeX.png" class="social-icon">X</a></li>
+                  <li><a href="https://www.linkedin.com/school/politecnico-castelo-branco/posts/?feedView=all"><img src="pictures/iconeLinkedin.png" class="social-icon">LinkedIn</a></li>
+                  <li><a href="https://www.instagram.com/ipcb.pt/"><img src="pictures/iconeInstagram.png" class="social-icon">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
+    </script>
+    <script>
+      $(function(){
+        $('.carousel').carousel({
+          interval:4000             
+        })
+      })
+    </script>
+  </body>
+</html>
