@@ -10,9 +10,9 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link href="css/styleIndex.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link href="css/styleIndex.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -59,18 +59,19 @@
     <!-- Formulário -->
     <div class="formulario">
       <h2>Envia-nos uma mensagem</h2>
-      <form>
+      <!-- FORMULÁRIO A FUNCIONAR -->
+      <form action="enviarMensagem.php" method="POST">
         <label>Nome</label>
-        <input type="text" placeholder="O teu nome" required>
+        <input type="text" name="nome" placeholder="O teu nome" required>
 
         <label>Email</label>
-        <input type="email" placeholder="O teu email" required>
+        <input type="email" name="email" placeholder="O teu email" required>
          
         <label>Assunto</label>
-        <input type="assunto" placeholder="O teu assunto" required>
+        <input type="text" name="assunto" placeholder="O teu assunto" required>
 
         <label>Mensagem</label>
-        <textarea rows="5" placeholder="A tua mensagem..." required></textarea>
+        <textarea name="mensagem" rows="5" placeholder="A tua mensagem..." required></textarea>
 
         <button type="submit">Enviar</button>
       </form>
